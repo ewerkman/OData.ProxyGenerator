@@ -61,13 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Templates\ODataT4CodeGenerator.cs" />
+    <Compile Include="Templates\ODataT4CodeGenerator1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ODataT4CodeGenerator.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V4CodeGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Templates\ODataT4CodeGenerator.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
+      <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>ODataT4CodeGenerator1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
