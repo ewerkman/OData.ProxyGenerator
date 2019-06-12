@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataConnectedServiceConsole", "ODataConnectedServiceConsole\ODataConnectedServiceConsole.csproj", "{A8D0DCC7-505D-4BE7-A4BB-DA96BA7EA46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OData.ProxyGenerator", "OData.ProxyGenerator\OData.ProxyGenerator.csproj", "{3F11B674-BADC-4859-AFAB-8CF194BE996E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D0DCC7-505D-4BE7-A4BB-DA96BA7EA46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D0DCC7-505D-4BE7-A4BB-DA96BA7EA46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D0DCC7-505D-4BE7-A4BB-DA96BA7EA46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D0DCC7-505D-4BE7-A4BB-DA96BA7EA46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F11B674-BADC-4859-AFAB-8CF194BE996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F11B674-BADC-4859-AFAB-8CF194BE996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F11B674-BADC-4859-AFAB-8CF194BE996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F11B674-BADC-4859-AFAB-8CF194BE996E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30E11F66-FA83-4912-8E88-E92DBDA82CF5}
+	EndGlobalSection
+EndGlobal
