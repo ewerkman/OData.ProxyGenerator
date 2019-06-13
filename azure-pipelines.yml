@@ -6,8 +6,8 @@
 trigger:
   branches:
     include: 
-      master
-      refs/tags/{tagname}  
+    - master
+    - refs/tags/{tagname}  
 
 pool:
   vmImage: 'windows-latest'
