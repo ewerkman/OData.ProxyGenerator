@@ -1,11 +1,10 @@
-﻿using CommandLine;
-using CommandLine.Text;
-using OData.ProxyGenerator;
-using System;
-using System.IO;
-
-namespace ODataConnectedServiceConsole
+﻿namespace OData.ProxyGenerator.Console
 {
+    using CommandLine;
+    using OData.ProxyGenerator;
+    using System;
+    using System.IO;
+
     class Program
     {
         public class Options
