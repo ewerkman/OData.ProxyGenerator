@@ -8,3 +8,13 @@ Unfortunately, this tool is not so useful when you want to automate the process 
 
 Based on the source code of the extension, I created a simple class library and a sample console application that use the same T4 template as used in the tool to generate the code. 
 
+> Note: This tool was not extensively tested. 
+
+## How to use the console application
+
+Usage information is provided by typing `OData.ProxyGenerator.Console --help`
+
+If you are using this tool (as I am) to generate the proxy code to connect to a Sitecore Commerce Engine, you can use the following command lines to generate the ServiceProxy code:
+
+`OData.ProxyGenerator.Console -m "https://localhost:5000/api/%24metadata" -o c:\temp\CommerceShops.cs --overwrite`
+`OData.ProxyGenerator.Console -m "https://localhost:5000/api/%24metadata" -n "CommerceOps" -o c:\temp\CommerceOps.cs --overwrite`
